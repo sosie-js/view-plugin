@@ -6,7 +6,7 @@
 
 ### View init helper
 
-Provides function to open a html window with html rendering of the blocks
+Provides function to open a html window with html rendering of the blocks 
 
 ```
 ## Integration

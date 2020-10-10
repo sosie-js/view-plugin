@@ -6,21 +6,27 @@
 
 ### View init helper
 
-Provides function to open a html window with html rendering of the blocks 
+Provides function to exports blocks as html
+
+### Sample button
+
+![](view-btn.png)
+
+When clicked, pens a html window with html rendering of the blocks 
 
 ```
 ## Integration
 
 Add a line in  either your example.html, after the script-loader line in the loadPlugins section
 
-```html
-	/**
-        * Plugins
-        */
-         await loadPlugins([
-            {'sosie-js/script-loader@2.2.0': '[example/plugins/script-loader](https://github.com/sosie-js/script-loader)'}, //virtual , already loaded we keep a version trace here
-            {'sosie-js/view-plugin@1.0.0': ['[example/plugins/view-plugin](https://github.com/sosie-js/view-plugin)',['dist/bundle.js','dist/sample.js']]}
-        ],nocache,mode,target);
+```javascript
+/**
+* Plugins
+*/
+    await loadPlugins([
+    {'sosie-js/script-loader@3.0.0': '[example/plugins/script-loader](https://github.com/sosie-js/script-loader)'}, //virtual , already loaded we keep a version trace here
+    {'sosie-js/view-plugin@1.0.0': ['[example/plugins/view-plugin](https://github.com/sosie-js/view-plugin)',['dist/bundle.js','dist/sample.js']]}
+],nocache,mode,target);
 ```
 
 ## Building the plugin

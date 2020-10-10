@@ -12,9 +12,8 @@ Provides function to exports blocks as html
 
 ![](view-btn.png)
 
-When clicked, pens a html window with html rendering of the blocks 
+When clicked, opens a html window with html rendering of the blocks 
 
-```
 ## Integration
 
 Add a line in  either your example.html, after the script-loader line in the loadPlugins section

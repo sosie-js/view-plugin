@@ -1,12 +1,13 @@
-![](https://badgen.net/badge/SoS正/0.7.0/f2a) ![](https://badgen.net/badge/editor.js/v2.1.8/blue) ![](https://badgen.net/badge/plugin/v1.0.0/orange) 
+![](https://badgen.net/badge/SoS正/0.7.0/f2a) ![](https://badgen.net/badge/editor.js/v2.1.8/blue) ![](https://badgen.net/badge/plugin/v3.0.0/orange) 
 
-# View Plugin to view html from exported blocks 
+# View Plugin to view html and changes from exported blocks 
 
 ## Feature(s)
 
 ### View init helper
 
-Provides function to exports blocks as html
+- Provides function to exports blocks as html
+- Examine button to view colored diffs , handles BigBrother mode (New in 3.0.0)
 
 ### Sample button
 

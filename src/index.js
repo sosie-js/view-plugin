@@ -15,6 +15,7 @@
 *    3.1.0 (14.11.2020) - BUGGY version
 */
 
+//!FIXME DOn't know how to access jsondiffpatch, it does not work
 import * as jsondiffpatch from './jsondiffpatch.esm';
 
 class EditorBroadcastChannel {

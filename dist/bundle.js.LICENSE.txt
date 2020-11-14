@@ -1,0 +1,11 @@
+/*!
+ * view plugin
+ *
+ * @version 4.0.0
+ *
+ * @package https://github.com/sosie-js/view-plugin
+ * @licence MIT
+ * @author SoSIE <https://sosie.sos-productions.com>
+ * uses jsdiff from johnresig.com
+ * uses jsondiffpatch
+ */

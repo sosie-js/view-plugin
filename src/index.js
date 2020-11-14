@@ -14,6 +14,8 @@
 *    3.0.0 (22.10.2020) - diffs in colors with examine or when Bigbrother is mode enabled. Packaging done.
 */
 
+import * as jsondiffpatch from './jsondiffpatch.esm';
+
 class EditorBroadcastChannel {
         
     constructor(channel, handlerMessage) {
@@ -172,7 +174,8 @@ class ViewPlugin {
           return currentScript.replace('/dist/bundle.js','');  //'editor.js/example/plugins/file-plugin';
       }
         
-      
+     /*  if(!window.hasOwnProperty('jsondiffpatch')&&!window.hasOwnProperty('jsdiff')) {
+         
       var mode='prod'
         var source='local';//Works only with local stored dists as we decided not to publish on npm
         var nocache=false;
@@ -191,6 +194,11 @@ class ViewPlugin {
         } else {
           alert('You need to load sosie-js/script-loader version 3.0.+ available on github');
         }
+       } else {*/
+         //Webpack mode
+       
+       require('./jsdiff.js');
+      /*}*/
       
       
       var childWindow;

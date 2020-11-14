@@ -45,7 +45,10 @@ function download(from, to , override) {
 download(SOURCE, DEST , false)
 
 // Copy node_modules/jsondiffpatch/dist/'  into dist/
-download('node_modules/jsondiffpatch/dist/jsondiffpatch.umd.js', 'src/jsondiffpatch.umd.js' , true)
+//download('node_modules/jsondiffpatch/dist/empty.js', 'src/empty.js' , true)
+//download('node_modules/jsondiffpatch/dist/jsondiffpatch.umd.js', 'src/jsondiffpatch.umd.js' , true)
+//download('node_modules/jsondiffpatch/dist/jsondiffpatch.esm.js', 'src/jsondiffpatch.esm.js' , true)
+//download('node_modules/jsondiffpatch/dist/jsondiffpatch.cjs.js', 'src/jsondiffpatch.cjs.js' , true)
 
 fs.mkdir(path.join(__dirname, '../dist/formatters-styles'), (err) => { 
     if (err) { 

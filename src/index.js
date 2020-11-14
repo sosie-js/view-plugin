@@ -1,7 +1,7 @@
 /*!
 *  View plugin
 * 
-*  @version 3.0.0
+*  @version 3.1.0
 *  @package https://github.com/sosie-js/view-plugin
 */
 
@@ -12,6 +12,7 @@
 *    1.0.0 (10.10.2020) - Initial version from SoSIE
 *    2.0.0 (17.10.2020) - Packaging all methods in View.init()
 *    3.0.0 (22.10.2020) - diffs in colors with examine or when Bigbrother is mode enabled. Packaging done.
+*    3.1.0 (14.11.2020) - BUGGY version
 */
 
 import * as jsondiffpatch from './jsondiffpatch.esm';
